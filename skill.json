@@ -1,0 +1,36 @@
+{
+  "name": "peer-review-verifier-skill",
+  "version": "1.0.0",
+  "description": "Aggregate and analyze multiple peer references and comments to verify proof-of-work credibility and output a consolidated skills matrix.",
+  "author": "alphaparkinc",
+  "category": "HR",
+  "tags": [
+    "peer-review",
+    "verification",
+    "recruiting",
+    "profile-audit",
+    "skills-matrix"
+  ],
+  "inputs": {
+    "peer_feedbacks": {
+      "type": "array",
+      "description": "List of texts/feedbacks: [string]."
+    },
+    "candidate_skills": {
+      "type": "array",
+      "description": "Candidate self-claimed skills."
+    }
+  },
+  "outputs": {
+    "verified_skills_score": {
+      "type": "object",
+      "description": "Validated score mapping: {skill: validation_level}."
+    },
+    "authenticity_score": {
+      "type": "number",
+      "description": "Calculated reference trust score (0.0 to 1.0)."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
