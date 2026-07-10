@@ -1,4 +1,4 @@
-# peer-review-verifier-skill
+# genpark-peer-review-verifier-skill
 
 > **GenPark AI Agent Skill** -- Proof-of-work peer reference validator.
 
