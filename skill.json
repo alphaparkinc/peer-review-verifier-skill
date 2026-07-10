@@ -1,8 +1,8 @@
 {
   "name": "peer-review-verifier-skill",
   "version": "1.0.0",
-  "description": "Aggregate and analyze multiple peer references and comments to verify proof-of-work credibility and output a consolidated skills matrix.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Aggregate and analyze multiple peer references and comments to verify proof-of-work credibility and output a consolidated skills matrix.",
+  "author": "genpark",
   "category": "HR",
   "tags": [
     "peer-review",
